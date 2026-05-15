@@ -1,0 +1,23 @@
+{
+    "name": "Matugen Harmonized Light",
+    "black": "{{ colors.background.default.hex }}",
+    "red": "{{ "#FF6188" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 25.0 }}",
+    "green": "{{ "#A9DC76" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 25.0 }}",
+    "yellow": "{{ "#FC9867" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 25.0 }}",
+    "blue": "{{ "#FFD866" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 25.0 }}",
+    "purple": "{{ "#F47FD4" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 25.0 }}",
+    "cyan": "{{ "#78DCE8" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 25.0 }}",
+    "white": "{{ colors.on_background.default.hex }}",
+    "brightBlack": "{{ "#121212" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 15.0 }}",
+    "brightRed": "{{ "#FF6188" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 15.0 }}",
+    "brightGreen": "{{ "#A9DC76" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 15.0 }}",
+    "brightYellow": "{{ "#FC9867" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 15.0 }}",
+    "brightBlue": "{{ "#FFD866" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 15.0 }}",
+    "brightPurple": "{{ "#F47FD4" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 15.0 }}",
+    "brightCyan": "{{ "#78DCE8" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 15.0 }}",
+    "brightWhite": "{{ "#333034" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 15.0 }}",
+    "background": "{{ colors.background.default.hex }}",
+    "foreground": "{{ colors.on_background.default.hex }}",
+    "selectionBackground": "{{ colors.primary.default.hex }}",
+    "cursorColor": "{{ colors.on_background.default.hex }}"
+}

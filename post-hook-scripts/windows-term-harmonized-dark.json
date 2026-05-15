@@ -1,0 +1,23 @@
+{
+    "name": "Matugen Harmonized Dark",
+    "black": "{{ colors.background.default.hex }}",
+    "red": "{{ "#CC241D" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 25.0 }}",
+    "green": "{{ "#98971A" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 25.0 }}",
+    "yellow": "{{ "#D79921" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 25.0 }}",
+    "blue": "{{ "#458588" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 25.0 }}",
+    "purple": "{{ "#B16286" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 25.0 }}",
+    "cyan": "{{ "#689D6A" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 25.0 }}",
+    "white": "{{ colors.on_background.default.hex }}",
+    "brightBlack": "{{ "#928374" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 15.0 }}",
+    "brightRed": "{{ "#FB4934" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 15.0 }}",
+    "brightGreen": "{{ "#B8BB26" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 15.0 }}",
+    "brightYellow": "{{ "#FABD2F" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 15.0 }}",
+    "brightBlue": "{{ "#83A598" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 15.0 }}",
+    "brightPurple": "{{ "#D3869B" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 15.0 }}",
+    "brightCyan": "{{ "#8EC07C" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 15.0 }}",
+    "brightWhite": "{{ "#EBDBB2" | to_color | blend: {{ colors.primary.default.hex }}, 0.85 | saturate: -20.0, "hsl" | auto_lightness: 15.0 }}",
+    "background": "{{ colors.background.default.hex }}",
+    "foreground": "{{ colors.on_background.default.hex }}",
+    "selectionBackground": "{{ colors.primary.default.hex }}",
+    "cursorColor": "{{ colors.on_background.default.hex }}"
+}
